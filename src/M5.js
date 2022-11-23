@@ -39,7 +39,8 @@ function M5() {
             퀴즈를 풀어주세요! 그러면 응모완료! 추첨은 랜덤이며 당첨자 상품은
             공학작품 전시회 종료후 개별로 드리겠습니다!
           </span>
-          <a href="https://bluesea1.netlify.app">{"퀴즈 풀러가기!!"}</a>
+          <br></br>
+          <a style={{font-size:"3em",color:"red"}}href="https://forms.gle/oxW4KHo3zi86JSF76">{"퀴즈 풀러가기!!"}</a>
         </div>
         <footer id="main-footer"></footer>
       </div>
