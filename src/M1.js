@@ -2,37 +2,37 @@ import { Link } from "react-router-dom";
 function M1() {
   return (
     <>
-      <div class="page-all">
-        <h1 class="m-title">
+      <div className="page-all">
+        <h1 className="m-title">
           블록체인 기술을 이용한 해양 환경보호 기부 시스템
         </h1>
-        <h2 class="m-team">By 열정너구리</h2>
+        <h2 className="m-team">By 열정너구리</h2>
         <nav id="main-nav">
-          <div class="pull">
+          <div className="pull">
             <Link to="/M1">
-              <button class="btn">개발동기</button>
+              <button className="btn">개발동기</button>
             </Link>
             <span> </span>
             <Link to="/M2">
-              <button class="btn">작품내용</button>
+              <button className="btn">작품내용</button>
             </Link>
             <span> </span>
             <Link to="/M3">
-              <button class="btn">설계내용</button>
+              <button className="btn">설계내용</button>
             </Link>
             <span> </span>
             <Link to="/M4">
-              <button class="btn">결과 및 기대효과</button>
+              <button className="btn">결과 및 기대효과</button>
             </Link>
             <Link to="/M5">
-              <button class="btn">이벤트</button>
+              <button className="btn">이벤트</button>
             </Link>
           </div>
         </nav>
-        <hr class="line"></hr>
-        <div class="content">
-          <h2 class="sub_title">개발동기</h2>
-          <span class="write">
+        <hr className="line"></hr>
+        <div className="content">
+          <h2 className="sub_title">개발동기</h2>
+          <span className="write">
             우리나라 전국 해양쓰레기는 2020년 기준으로 약 13만8 천(톤)(출처 :
             해양수산부 통계 시스템)이 나왔다. 이렇게 매년 전국에서 나오는
             해양쓰레기 양이 엄청나게 많고 이로인해 해양오염이 가속화되고 있다.

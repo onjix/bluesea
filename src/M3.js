@@ -3,41 +3,41 @@ import picture from "./image/시스템구성도.png";
 function M3() {
   return (
     <>
-      <div class="page-all">
-        <h1 class="m-title">
+      <div className="page-all">
+        <h1 className="m-title">
           블록체인 기술을 이용한 해양 환경보호 기부 시스템
         </h1>
-        <h2 class="m-team">By 열정너구리</h2>
+        <h2 className="m-team">By 열정너구리</h2>
         <nav id="main-nav">
-          <div class="pull">
+          <div className="pull">
             <Link to="/M1">
-              <button class="btn">개발동기</button>
+              <button className="btn">개발동기</button>
             </Link>
             <span> </span>
             <Link to="/M2">
-              <button class="btn">작품내용</button>
+              <button className="btn">작품내용</button>
             </Link>
             <span> </span>
             <Link to="/M3">
-              <button class="btn">설계내용</button>
+              <button className="btn">설계내용</button>
             </Link>
             <span> </span>
             <Link to="/M4">
-              <button class="btn">결과 및 기대효과</button>
+              <button className="btn">결과 및 기대효과</button>
             </Link>
             <Link to="/M5">
-              <button class="btn">이벤트</button>
+              <button className="btn">이벤트</button>
             </Link>
           </div>
         </nav>
-        <hr class="line"></hr>
-        <div class="content">
-          <h2 class="sub_title">설계내용</h2>
+        <hr className="line"></hr>
+        <div className="content">
+          <h2 className="sub_title">설계내용</h2>
           <ul>
-            <li class="l_title">시스템 구성도</li>
+            <li className="l_title">시스템 구성도</li>
           </ul>
           <img src={picture} width="800" heigth="400" alt="이미지" />
-          <ul class="cc-all">
+          <ul className="cc-all">
             <li>후원자는 자신이 원하는 캠페인에 암호화폐를 후원할 수 있다.</li>
             <li>기부단체는 후원 캠페인을 올려 후원자들의 후원을 받는다.</li>
             <li>
@@ -56,9 +56,9 @@ function M3() {
           </ul>
           <br></br>
           <ul>
-            <li class="l_title">사용기술</li>
+            <li className="l_title">사용기술</li>
           </ul>
-          <table class="f_table">
+          <table className="f_table">
             <thead>
               <tr>
                 <th scope="cols">기술</th>

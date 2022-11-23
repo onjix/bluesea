@@ -2,38 +2,38 @@ import { Link } from "react-router-dom";
 function M2() {
   return (
     <>
-      <div class="page-all">
-        <h1 class="m-title">
+      <div className="page-all">
+        <h1 className="m-title">
           블록체인 기술을 이용한 해양 환경보호 기부 시스템
         </h1>
-        <h2 class="m-team">By 열정너구리</h2>
+        <h2 className="m-team">By 열정너구리</h2>
         <nav id="main-nav">
-          <div class="pull">
+          <div className="pull">
             <Link to="/M1">
-              <button class="btn">개발동기</button>
+              <button className="btn">개발동기</button>
             </Link>
             <span> </span>
             <Link to="/M2">
-              <button class="btn">작품내용</button>
+              <button className="btn">작품내용</button>
             </Link>
             <span> </span>
             <Link to="/M3">
-              <button class="btn">설계내용</button>
+              <button className="btn">설계내용</button>
             </Link>
             <span> </span>
             <Link to="/M4">
-              <button class="btn">결과 및 기대효과</button>
+              <button className="btn">결과 및 기대효과</button>
             </Link>
             <Link to="/M5">
-              <button class="btn">이벤트</button>
+              <button className="btn">이벤트</button>
             </Link>
           </div>
         </nav>
-        <hr class="line"></hr>
-        <div class="content">
-          <h2 class="sub_title">작품내용</h2>
-          <div class="cc-all">
-            <ul class="cc">
+        <hr className="line"></hr>
+        <div className="content">
+          <h2 className="sub_title">작품내용</h2>
+          <div className="cc-all">
+            <ul className="cc">
               <li>자신의 암호화폐 지갑을 통해 사이트 가입</li>
               <ul>
                 <li>
@@ -42,7 +42,7 @@ function M2() {
                 <li>회원은 기부자 회원과 모금 단체(또는 개인)회원으로 구분.</li>
               </ul>
             </ul>
-            <ul class="cc">
+            <ul className="cc">
               <li>해양환경 캠페인 공고</li>
               <ul>
                 <li>
@@ -59,7 +59,7 @@ function M2() {
                 </li>
               </ul>
             </ul>
-            <ul class="cc">
+            <ul className="cc">
               <li>기부자들은 암호화폐를 기부해 참여</li>
               <ul>
                 <li>자신이 원하는 해양환경 캠페인을 찾아서 기부할 수 있음.</li>
@@ -68,7 +68,7 @@ function M2() {
                 </li>
               </ul>
             </ul>
-            <ul class="cc">
+            <ul className="cc">
               <li>모금이 종료되면 환경사업 진행</li>
               <ul>
                 <li>

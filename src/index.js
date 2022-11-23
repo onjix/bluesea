@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router basename="/rexplain/">
+  <Router>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="M1" element={<M1 />} />
