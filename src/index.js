@@ -19,6 +19,7 @@ root.render(
       <Route path="M3" element={<M3 />} />
       <Route path="M4" element={<M4 />} />
       <Route path="M5" element={<M5 />} />
+      <Route path="*" element={<App />} />
     </Routes>
   </Router>
 );
