@@ -40,7 +40,7 @@ function M5() {
             공학작품 전시회 종료후 개별로 드리겠습니다!
           </span>
           <br></br>
-          <a style={{font-size:"3em",color:"red"}}href="https://forms.gle/oxW4KHo3zi86JSF76">{"퀴즈 풀러가기!!"}</a>
+          <a style={{font-size:"3em",color:"red"}} href="https://forms.gle/oxW4KHo3zi86JSF76">{"퀴즈 풀러가기!!"}</a>
         </div>
         <footer id="main-footer"></footer>
       </div>
